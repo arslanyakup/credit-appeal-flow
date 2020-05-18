@@ -1,0 +1,12 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /eteration-workflowdb
+  datasource.url: jdbc:h2:file:./camunda-h2-database
+  jersey:
+    application-path: /engine-rest
+
+camunda.bpm.admin-user:
+  id: eteration
+  password: 123456
